@@ -22,30 +22,33 @@ const ContactPage = ({ data: { site } }) => {
             marginBottom: 0,
           }}
         >
-          <h1 className="post-title">Get in Touch</h1>
-          <p>Let me help you kick start your next project &rarr;</p>
+          <h1 className="post-title">Contáctame</h1>
+          <p>Déjame ayudarte a poner en marcha tu próximo proyecto &rarr;</p>
         </div>
         <div>
           <form
             className="form-container"
-            action="https://sendmail.w3layouts.com/SubmitContactForm"
+            action="https://formsubmit.co/raulahumada00@gmail.com"
             method="post"
           >
+            <input type="hidden" name="_template" value="box" />
+            <input type="hidden" name="_captcha" value="false" />
+
             <div>
-              <label htmlFor="w3lName">Name</label>
-              <input type="text" name="w3lName" id="w3lName" />
+              <label htmlFor="w3lName">Nombre</label>
+              <input type="text" name="name" id="w3lName" />
             </div>
             <div>
               <label htmlFor="w3lSender">Email</label>
-              <input type="email" name="w3lSender" id="w3lSender" />
+              <input type="email" name="email" id="w3lSender" />
             </div>
             <div>
-              <label htmlFor="w3lSubject">Subject</label>
-              <input type="text" name="w3lSubject" id="w3lSubject" />
+              <label>Asunto</label>
+              <input type="text" name="_subject" />
             </div>
             <div>
-              <label htmlFor="w3lMessage">Message</label>
-              <textarea name="w3lMessage" id="w3lMessage"></textarea>
+              <label>Mensaje</label>
+              <textarea name="message" style={{ resize: 'none' }}></textarea>
             </div>
             <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
               <input
