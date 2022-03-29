@@ -6,3 +6,5 @@ title: Introducción a la Programación orientada a objetos - (POO)
 thumbnail: /assets/thumbnail.jpg
 metaDescription: Introduction to oriented object programming
 ---
+
+# Qué es un paradigma?
