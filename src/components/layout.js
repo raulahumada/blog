@@ -25,12 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>
-          &copy; {new Date().getFullYear()} Raúl Ahumada &bull; Hecho a mano con{' '}
-          <span role="img" aria-label="love">
-            ❤️
-          </span>
-        </p>
+        <p>&copy; {new Date().getFullYear()} Raúl Ahumada</p>
       </footer>
     </div>
   );
