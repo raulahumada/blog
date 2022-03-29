@@ -25,4 +25,4 @@ Se puede decir que la moto es el elemento principal que tiene una serie caracter
 
 Pensar en objetos requiere analizar que objetos vas a utilizar en tu programa, **tratando de identificar las características y funcionalidades.** Al tener todos los objetos identificados, se van a relacionar para resolver el objetivo de la aplicación.
 
-**Al principio puede ser complicado dar el salto al pensamiento en objetos, con el tiempo va a ser una tarea automática**
+**Al principio puede ser complicado dar el salto al pensamiento en objetos, con el tiempo va a ser una tarea automática 🥳.**
